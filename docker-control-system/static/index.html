@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Docker Containers Control System</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="/js/q.min.js"></script>
+    <script type="text/javascript" src="/js/wsrpc.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/index.js"></script>
+</head>
+
+<body>
+<div class="container">
+
+    <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#images">Images</a></li>
+        <li><a data-toggle="tab" href="#containers">All containers</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="images" class="tab-pane fade in active" id = "images">
+            <h3>Images list</h3>
+						 <div class="list-group" id="images-list">
+						 </div>
+        </div>
+
+        <div id="containers" class="tab-pane fade" id = "containers">
+            <h3>Containers list</h3>
+							<div class="list-group" id="containers-list">
+ 						 </div>
+          </div>
+    </div>
+</div>
+</body>
+
+</html>
